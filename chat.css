@@ -71,7 +71,7 @@ border: none;
 }
 
 /* ubble interaction */
-#bubbleMe1, #bubbleMe2, #bubbleMe3, #bubbleMe4, #bubbleMe5, #bubbleMe6, #bubbleMe7, #bubbleMe8, #bubbleMe9, #bubbleMe10, #bubbleMe11, #bubbleMe12, #bubbleMe13, #bubbleMe14, #bubbleMe15, #bubbleMe13x {
+#bubbleMe1, #bubbleMe2, #bubbleMe3, #bubbleMe4, #bubbleMe5, #bubbleMe6, #bubbleMe7, #bubbleMe8, #bubbleMe9, #bubbleMe10, #bubbleMe11, #bubbleMe12, #bubbleMe13, #bubbleMe14, #bubbleMe15, #bubbleMe13x, #thankYouFinal {
 	display:none;
 	opacity: 0;
     text-align: center;
@@ -90,6 +90,16 @@ border: none;
     -o-transition: opacity .4s ease-in;
     -ms-transition: opacity .4s ease-in;
     transition: opacity .4s ease-in;
+}
+#thankYouFinal {
+	background:#e43500;
+	width:100%;
+	height:260px;
+	outline: 24px solid #e43500;
+	margin-top:40px;
+	color:#fff;
+	font-weight: 600;
+	font-size: 30px;
 }
 
 /* modal content */
